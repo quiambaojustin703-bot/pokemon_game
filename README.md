@@ -1,18 +1,19 @@
-# Who's That Pokémon? Game
+Who's That Pokémon? Game
 
-A terminal-based guessing game built using Python and PokeAPI.
+This is a guessing game that runs in a terminal. I use Python and PokeAPI
 
 ## Features
-- Dynamically fetches Pokémon data (height, weight, abilities) from PokeAPI.
-- Randomly selects a Pokémon from a pre-defined list.
-- 3-attempt guessing mechanism with input validation.
 
-## Prerequisites
-- Python 3.x installed
-- `requests` library
+- I have made it so that the game pulls Pokemon data such, as height, weight and abilities from PokeAPI
 
-## Setup & Installation
-1. Clone or download this repository.
-2. Install the required dependencies:
-   ```bash
-   pip install -r requirements.txt
+- A Pokemon is chosen at random from a set of Pokemon.
+
+- We have three attempts to guess the Pokemon. The game checks that your input is valid.
+
+## Installation
+
+1. First cloning the repository or downloading the source code.
+2. Next installing the dependencies that the project needs:
+```bash
+winglet pip install requests
+```
